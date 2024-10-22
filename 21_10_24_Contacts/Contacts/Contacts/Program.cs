@@ -138,5 +138,6 @@ public class Program
             choice = int.Parse(Console.ReadLine());
             program.Menu(choice);
         } while (choice != 4);
+        Console.WriteLine("Koniec programu.");
     }
 }
