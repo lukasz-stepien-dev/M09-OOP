@@ -1,0 +1,16 @@
+Program powinien umożliwiać wybór jednostki, którą użytkownik chce przekonwertować (np. metry, centymetry, cale, stopy), a następnie podanie wartości tej jednostki.
+Użytkownik powinien także wybrać jednostkę, na którą ma zostać dokonana konwersja.
+
+Program powinien obliczyć wartość w wybranej jednostce docelowej i zapisać informację o konwersji (początkowa jednostka, wartość, docelowa jednostka, wynik).
+
+Wszystkie dane konwersji (jednostka początkowa, wartość początkowa, jednostka docelowa i wynik konwersji) powinny zostać przechowane w kontenerze typu vector. Tutaj możesz użyć np. struktury:
+struct Konwersja {     string jednostkaPoczatkowa;    double wartoscPoczatkowa; string jednostkaDocelowa; double wynikKonwersji; };
+
+Na zakończenie program powinien wygenerować czytelny raport z przeprowadzonych konwersji. Raport powinien zawierać nagłówki kolumn: "Jednostka Początkowa", "Wartość Początkowa", "Jednostka Docelowa", "Wynik Konwersji". Wynik konwersji powinien być sformatowany z dokładnością do dwóch miejsc po przecinku.
+
+Wykorzystaj manipulatory formatujące z biblioteki iomanip, takie jak setw, setprecision, fixed, setfill, aby dostosować szerokość kolumn i ilość cyfr dziesiętnych, tak aby tabela była czytelna i estetyczna.
+
+metry -> 3
+centrymetry -> 3
+cale -> 3
+stopy -> 3
