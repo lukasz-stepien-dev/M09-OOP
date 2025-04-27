@@ -1,0 +1,6 @@
+5
+Kowalski 75 80 85
+Nowak 90 85 88
+Wiśniewska 70 65 72
+Jankowski 88 92 95
+Szczepańska 65 70 68

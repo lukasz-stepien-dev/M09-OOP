@@ -1,0 +1,5 @@
+4
+Kowalski 8 5
+Nowak 12 10
+Wiśniewski 8 7
+Szczepański 15 12
